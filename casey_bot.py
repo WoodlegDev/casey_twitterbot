@@ -37,7 +37,7 @@ for answer in to_respond:
     doubled_id = False
     tweet_id = answer["tweet_id"]
     username = answer["username"]
-    status_text = f"@{username} GO **** YOURSELF! Please no more about the weather in L.A.! - yours faithfully, Casey"
+    status_text = f"@{username} - Please no more about the weather in L.A.! - yours faithfully, Casey"
     for i in range(len(masterlist)):
         if tweet_id == masterlist[i]["tweet_id"]:
             doubled_id = True
